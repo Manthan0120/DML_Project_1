@@ -75,7 +75,7 @@ python experiments.py
 The models use the following configurations:
 
 **MLP Configuration:**
-- Architecture: 3072 96 1024 96 512 96 10
+- Architecture: 3072 → 1024 → 512 → 10
 - Optimizer: Adam (lr=1e-3)
 - Dropout: 0.2
 - Epochs: 20
@@ -123,7 +123,8 @@ Results are saved in the `obtained_result/` directory:
 - **Training Images**: 50,000
 - **Validation Images**: 10,000
 - **Classes**: 10 (airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck)
-- **Image Size**: 32323
+- **Image Size**: 32 x 32 x 3
+
 
 ## Dependencies
 
@@ -165,16 +166,16 @@ python -m pip freeze > requirements.txt
 ## Assignment Compliance
 
 This implementation satisfies all assignment requirements:
-- 7 MLP with 2+ hidden layers using standard PyTorch
-- 7 CNN with 2+ hidden layers using standard PyTorch  
-- 7 CNN outperforms MLP (80.8% vs 43.8% accuracy)
-- 7 CIFAR-10 dataset with proper train/validation split
-- 7 CrossEntropyLoss for classification
-- 7 Additional batch size optimization experiment
-- 7 Learning curves showing train/validation metrics
-- 7 Modular code structure with proper separation of concerns
-- 7 Comprehensive data logging and CSV output
-- 7 Academic report following IEEE format
+- ✅ MLP with 2+ hidden layers using standard PyTorch
+- ✅ CNN with 2+ hidden layers using standard PyTorch  
+- ✅ CNN outperforms MLP (80.8% vs 43.8% accuracy)
+- ✅ CIFAR-10 dataset with proper train/validation split
+- ✅ CrossEntropyLoss for classification
+- ✅ Additional batch size optimization experiment
+- ✅ Learning curves showing train/validation metrics
+- ✅ Modular code structure with proper separation of concerns
+- ✅ Comprehensive data logging and CSV output
+- ✅ Academic report following IEEE format
 
 ## Usage Examples
 
