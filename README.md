@@ -202,12 +202,4 @@ python experiments.py --models mlp cnn --batch-sizes 32 64 128
 3. **Batch Size Analysis**: Optimal batch size varies by architecture
 4. **Generalization**: CNN shows better validation performance stability
 
-## Contact Information
-For questions or issues, please refer to the course Canvas discussion page.
 
----
-**Course**: CS 595-003 ("Decentralized ML Systems")  
-**Assignment**: Deep Learning Assignment #1  
-**Instructor**: Dr. Nathaniel Hudson  
-**Due Date**: September 15th, 2025 at 11:59pm CDT  
-**Submission**: Submit .zip file containing all code, results, and report
