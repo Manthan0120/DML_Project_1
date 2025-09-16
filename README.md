@@ -126,22 +126,6 @@ Results are saved in the `obtained_result/` directory:
 - **Image Size**: 32 x 32 x 3
 
 
-## Dependencies
-
-The `requirements.txt` includes:
-```
-torch>=2.3.1
-torchvision
-pandas
-numpy
-matplotlib
-seaborn
-```
-
-To generate your own requirements file:
-```bash
-python -m pip freeze > requirements.txt
-```
 
 ## Computational Requirements
 - **CPU**: The code runs on CPU (no GPU required)
